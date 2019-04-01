@@ -1,18 +1,14 @@
 import React, { Component } from 'react'
 import './App.css'
-import Webcam from "react-webcam";
+// import Webcam from 'react-webcam'
+import Face from './component/face'
 
-const camera = {
-  transform : 'rotateY(180deg)'
-};
 class App extends Component {
   render() {
     return (
       <div className='App'>
         <header className='App-header'>
-          <Webcam 
-            style={camera}
-          />
+          <Face />
         </header>
       </div>
     );
