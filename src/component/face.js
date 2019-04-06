@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import clm from 'clmtrackr'
 import P5Wrapper from 'react-p5-wrapper'
 import pModel from '../model/pmodel'
-import 'react-p5-wrapper/node_modules/p5/lib/addons/p5.dom'
+import '../../node_modules/p5/lib/addons/p5.dom'
 
 class Face extends Component {
 
@@ -27,6 +27,7 @@ class Face extends Component {
             p5.noStroke();
 
         };
+
     };
 
     render() {
